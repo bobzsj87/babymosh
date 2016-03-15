@@ -65,6 +65,7 @@ aside {
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
+  padding-top: 5px;
   color: #F05F40;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
@@ -207,6 +208,10 @@ header .header-content .header-content-inner p {
 }
 .service-box p {
   margin-bottom: 0;
+  padding: 0 20px;
+}
+.service-box img {
+  border-radius: 50%;
 }
 .portfolio-box {
   position: relative;
@@ -261,6 +266,27 @@ header .header-content .header-content-inner p {
 }
 .call-to-action h2 {
   margin: 0 auto 20px;
+}
+.frontpage-why {
+  width: 100%;
+  padding: 30px;
+  display: block;
+}
+.frontpage-why tr {
+  padding: 15px 0;
+}
+.frontpage-why td {
+  width: 50%;
+}
+.frontpage-why .why-big {
+  text-align: right;
+  font-weight: bold;
+  font-size: 20px;
+  padding-right: 20px;
+}
+.frontpage-why .why-small {
+  font-size: 16px;
+  text-align: left;
 }
 .text-primary {
   color: #F05F40;
