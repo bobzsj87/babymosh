@@ -180,8 +180,7 @@ header {
             }
             p {
                 font-weight: 300;
-                color: fade(white, 70%);
-                font-size: 16px;
+                font-size: 18px;
                 margin-bottom: 50px;
             }
         }
@@ -207,6 +206,9 @@ header {
                 }
             }
         }
+        &.sub-header{
+            min-height:60%;
+        }
     }
 }
 
@@ -214,6 +216,10 @@ header {
 
 .section-heading {
     margin-top: 0;
+}
+
+.section-sub-heading{
+    color: @theme-grey;
 }
 
 .service-box {
@@ -225,9 +231,6 @@ header {
     p {
         margin-bottom: 0;
         padding: 0 20px;
-    }
-    img{
-        border-radius: 50%;
     }
 }
 
@@ -299,11 +302,10 @@ header {
     width:100%;
     padding: 30px;
     display:block;
-    tr{
-        padding: 15px 0;
-    }
+
     td{
         width:50%;
+        padding-bottom:20px;
     }
     .why-big{
         text-align: right;
@@ -315,6 +317,36 @@ header {
         font-size:16px;
         text-align: left;
     }
+}
+
+.stress{
+    font-weight: bold;
+    color:@theme-primary;
+}
+
+.round-corner{
+    border-radius: 50%;
+}
+
+.index-one-box{
+    color: @theme-grey;
+    
+    @media (min-width: 768px) {
+       .text-center{
+            padding:20px !important;
+       }
+    }
+}
+
+.img-bg{
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    .background-cover;
+    background-position: center;
+    background-image: url('../img/index/slow.png');
+    text-align: center;
+    color: white;   
 }
 
 // Bootstrap Overrides
@@ -346,6 +378,10 @@ header {
 
 .btn-xl {
     padding: 15px 30px;
+}
+
+.btn-action{
+    font-size: 26px;
 }
 
 // Extras

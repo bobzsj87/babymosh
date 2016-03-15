@@ -166,8 +166,7 @@ header .header-content .header-content-inner hr {
 }
 header .header-content .header-content-inner p {
   font-weight: 300;
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 50px;
 }
 @media (min-width: 768px) {
@@ -193,9 +192,15 @@ header .header-content .header-content-inner p {
     margin-left: auto;
     margin-right: auto;
   }
+  header.sub-header {
+    min-height: 60%;
+  }
 }
 .section-heading {
   margin-top: 0;
+}
+.section-sub-heading {
+  color: #666;
 }
 .service-box {
   max-width: 400px;
@@ -209,9 +214,6 @@ header .header-content .header-content-inner p {
 .service-box p {
   margin-bottom: 0;
   padding: 0 20px;
-}
-.service-box img {
-  border-radius: 50%;
 }
 .portfolio-box {
   position: relative;
@@ -272,11 +274,9 @@ header .header-content .header-content-inner p {
   padding: 30px;
   display: block;
 }
-.frontpage-why tr {
-  padding: 15px 0;
-}
 .frontpage-why td {
   width: 50%;
+  padding-bottom: 20px;
 }
 .frontpage-why .why-big {
   text-align: right;
@@ -287,6 +287,34 @@ header .header-content .header-content-inner p {
 .frontpage-why .why-small {
   font-size: 16px;
   text-align: left;
+}
+.stress {
+  font-weight: bold;
+  color: #F05F40;
+}
+.round-corner {
+  border-radius: 50%;
+}
+.index-one-box {
+  color: #666;
+}
+@media (min-width: 768px) {
+  .index-one-box .text-center {
+    padding: 20px !important;
+  }
+}
+.img-bg {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('../img/index/slow.png');
+  text-align: center;
+  color: white;
 }
 .text-primary {
   color: #F05F40;
@@ -400,6 +428,9 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-xl {
   padding: 15px 30px;
+}
+.btn-action {
+  font-size: 26px;
 }
 ::-moz-selection {
   color: white;
