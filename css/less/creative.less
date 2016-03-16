@@ -6,10 +6,12 @@ html,
 body {
     height: 100%;
     width: 100%;
+
 }
 
 body {
     .serif-font;
+    font-size:16px;
 }
 
 hr {
@@ -296,6 +298,11 @@ header {
     }
 }
 
+// footer
+footer{
+    padding: 20px 0;
+}
+
 // other customized
 
 .frontpage-why{
@@ -344,9 +351,14 @@ header {
     min-height: auto;
     .background-cover;
     background-position: center;
-    background-image: url('../img/index/slow.png');
     text-align: center;
     color: white;   
+    .full-block{
+        background-color: fade(white,70%);
+        color: @theme-dark;
+        padding:40px;
+        text-align: left;
+    }
 }
 
 // Bootstrap Overrides
