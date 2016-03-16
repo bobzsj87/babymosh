@@ -330,6 +330,10 @@ footer {
   padding: 40px;
   text-align: left;
 }
+.spacer {
+  display: block;
+  height: 20px;
+}
 .text-primary {
   color: #F05F40;
 }
