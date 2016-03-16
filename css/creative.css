@@ -137,6 +137,10 @@ aside {
     color: #F05F40;
   }
 }
+div.navbar-right {
+  padding-top: 10px;
+  padding-right: 20px;
+}
 header {
   position: relative;
   width: 100%;
@@ -188,7 +192,7 @@ header .header-content .header-content-inner p {
     margin-right: auto;
   }
   header .header-content .header-content-inner p {
-    font-size: 18px;
+    font-size: 24px;
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -272,6 +276,7 @@ header .header-content .header-content-inner p {
 }
 footer {
   padding: 20px 0;
+  font-style: 14px;
 }
 .frontpage-why {
   width: 100%;
