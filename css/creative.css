@@ -62,6 +62,9 @@ aside {
 .no-padding {
   padding: 0;
 }
+.logo {
+  max-width: 160px;
+}
 .navbar-default {
   background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
